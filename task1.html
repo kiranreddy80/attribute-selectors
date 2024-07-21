@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute selectors</title>
+    <style>
+        main{
+            background: conic-gradient( red,pink 30deg,yellow 10deg, orange ,blue,skyblue,black);
+            padding: 30px;
+            
+        }
+        input[type="text"]{
+        border :2px solid rgb(20, 228, 162)
+        }
+        input[type="text2"]{
+        border :2px solid rgb(229, 13, 28)
+        }
+        input[type="text3"]{
+        border :2px solid rgb(19, 7, 243)
+        }
+        input[type="radio"]{
+            background-color: rgb(4, 235, 235);
+        }
+        [title="kl rahul"]{
+        color: rgb(0, 174, 255);
+        }
+        [title="virat"]{
+        color: rgb(120, 71, 246);
+        }
+        [title="dhoni"]{
+        color: rgb(231, 14, 195);
+        }
+        [title="button"]{
+        color: aqua;
+        }
+
+    </style>
+</head>
+<body><center>
+    <main>
+    <label for="kiran" title="kl rahul">name</label>
+    <input type="text" id="kiran" title="kiran"><br><br>
+    <label for="kiran" title="virat">address</label>
+    <input type="text2" id="kiran"><br><br>
+    <label for="kiran" title="dhoni">phone number</label>
+    <input type="text3" id="kiran"><br><br>
+    <label for="kiran">Qualification:-</label><br><br>
+    <input type="radio" name="kk">b.tech
+    <input type="radio" name="kk">m.tech
+    <input type="radio" name="kk">mba<br><br>
+<center>
+    <button>restart</button>
+    <button>submit</button></center></main></center>
+</body>
+</html>
